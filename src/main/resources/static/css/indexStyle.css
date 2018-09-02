@@ -1,0 +1,149 @@
+html, body{
+	background-color: #E2F3EF;
+/* 	background-image: url('../img/index/bg.jpg'); */
+/* 	background-size: cover; */
+/* 	height: 100%; */
+	margin: 0;
+/* 	overflow: hidden; */
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.pandamonium-logo{
+	position: relative;
+	height: 170px;
+	width: 65%;
+	margin: auto;
+}
+.container{
+	background-color: white;
+	position: relative;
+	height: 65%;
+	width: 65%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 0;
+}
+.content{
+	height: 100%;
+}
+.navbar{
+	<!-- -->
+}
+.featured-section{
+	position: relative;
+	padding: 0;
+	height: calc(100% - 30px);
+}
+.featured-title{
+	background-color: #A5CBC3;
+	height: 40px;
+	width: 200px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top: 20px;
+	margin-bottom: -5px;
+	margin-left: -5px;
+	padding: 0 5%;
+	left: -5px;
+}
+.featured-pics-container{
+	position: relative;
+	margin: 0;
+	height: calc(100% - 25px);
+	padding: 5%;
+	text-align: center;
+}
+.row1{
+	position: relative;
+	margin: 0;
+	height: 50%;
+	text-align: center;
+}
+.row2{
+	position: relative;
+	margin: 0;
+	height: 50%;
+	text-align: center;
+}
+.f-pic{
+	background-color: #ddd;
+	position: relative;
+    box-sizing: border-box;
+	height: 95%;
+	width: 49%;
+	border-radius: 5px;
+}
+#pic1{
+	background-image: url('../img/index/ChocolateCreamPie.jpg');
+	background-size: cover;
+}
+#pic2{
+	background-image: url('../img/index/CinnamonFruitBiscuits.jpg');
+	background-size: cover;
+}
+#pic3{
+	background-image: url('../img/index/ChocoSheetCake.jpg');
+	background-size: cover;
+}
+#pic4{
+	background-image: url('../img/index/MiniBiscuitEclairs.jpg');
+	background-size: cover;
+}
+.about-section{
+	background-color: #A5CBC3;
+	position: relative;
+	height: 100%;
+	padding: 0;
+}
+.about-title{
+	margin-top: 25%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+  	padding-right: 10%;
+  	padding-left: 10%;
+  	color: #3B341F;
+}
+.about-content{
+  	padding-top: 5%;
+  	padding-right: 10%;
+  	padding-left: 10%;
+	text-align: center;
+	font-size: 1.35em;
+	color: #555;
+	font-weight: 300;
+}
+#hr-line{
+	margin: 0 auto;
+	text-align: center;
+}
+/* SCROLL */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
